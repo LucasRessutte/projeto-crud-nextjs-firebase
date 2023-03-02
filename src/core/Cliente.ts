@@ -2,6 +2,7 @@ export default class Cliente {
     #id: string
     #nome: string
     #idade: number
+    undefined: any
 
     constructor(nome: string, idade: number, id: string = '') {
         this.#nome = nome
